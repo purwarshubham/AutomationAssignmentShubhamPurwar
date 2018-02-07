@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="order">
+        <classes>
+            <class name="module.LogInFunctionality" />
+            <class name="module.VerifySignInPageLocator"/>
+            <class name="module.DashBoard_Footer_Verification" />
+            <class name="mailapi.SendMailSSL" />
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestAll]">
+  <test name="order(failed)">
+    <classes>
+      <class name="module.LogInFunctionality">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="MessageForBlankEmailId"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- module.LogInFunctionality -->
+    </classes>
+  </test> <!-- order(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
