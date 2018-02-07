@@ -9,7 +9,7 @@ public class SendMailSSL {
     @AfterSuite
     public void generateReport() {
 
-        Mailer.send("shubham.purwar@evivehealth.com","$Hubham1","shubham.purwar@evivehealth.com","Subject","Hi team , Please find below attachment ","/Users/shubhampurwar/Assignment1/src/main/Reports/emailable-report.html");
+        Mailer.send("shubham.purwar@evivehealth.com","******","shubham.purwar@evivehealth.com","Subject","Hi team , Please find below attachment ","/Users/shubhampurwar/Assignment1/src/main/Reports/emailable-report.html");
     }
 
 
